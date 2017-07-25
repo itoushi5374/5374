@@ -3,17 +3,17 @@
   <head>
     <meta charset="UTF-8">
     <!-- Basic meta -->
-    <meta title="5374.jp 静岡県三島市版" />
-    <meta name="description" content="Code for Kanazawaの作った5374.jpの静岡県三島市版です。5374.jpを使えば、あなたの地域で、いつ、どのゴミが回収されるのか、簡単に知る事ができます。" />
-    <meta keywords="" content="三島市,5374,ゴミ収集,ゴミ回収" />
+    <meta title="5374.jp 静岡県伊東市版" />
+    <meta name="description" content="Code for Kanazawaの作った5374.jpの静岡県伊東市版です。5374.jpを使えば、あなたの地域で、いつ、どのゴミが回収されるのか、簡単に知る事ができます。" />
+    <meta keywords="" content="伊東市,5374,ゴミ収集,ゴミ回収" />
     <!-- //Basic meta -->
     <!-- OGP -->
-    <meta property="og:title" content="5374.jp 静岡県三島市版" />
+    <meta property="og:title" content="5374.jp 静岡県伊東市版" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="http://hamamatsu.5374.jp/" />
     <meta property="og:description" content="Code for Kanazawaの作った5374.jpの静岡県三島市版です。5374.jpを使えば、あなたの地域で、いつ、どのゴミが回収されるのか、簡単に知る事ができます。" />
     <!-- //OGP -->
-    <title>5374(ｺﾞﾐﾅｼ).jp -静岡県三島市版-</title> 
+    <title>5374(ｺﾞﾐﾅｼ).jp -静岡県伊東市版-</title> 
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0" />
     <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png" />
@@ -24,13 +24,16 @@
   </head>
    <table border="2">
   <tr>
-   <td><img src="mishimaru.png" width="83" height="116" ></td>
-    <td><p><h3>５３７４アプリ　三島市版</h3></p>
-  <p>掲載がないものについては、ごみの収集日一覧を参照いただくか、<a href="tel:0559718993" style=" color: #000000;text-decoration: underline;" target=”_blank”>生活環境課055-971-8993</a>までお問い合わせください。</p></td>
-   <td><img src="mishimaruko.png" width="83" height="116"></td>
+   <td><!--<img src="mishimaru.png" width="83" height="116" >--></td>
+    <td><p><h3>５３７４アプリ　伊東市版</h3></p>
+  <p>掲載がないものについては、ごみの収集日一覧を参照いただくか、<a href="tel:0557372865" style=" color: #000000;text-decoration: underline;" target=”_blank”>環境課 0557-37-2865</a>までお問い合わせください。</p></td>
+   <td><!--<img src="mishimaruko.png" width="83" height="116">--></td>
     </tr>
     </table>
   <body>
+   
+
+
    
 
   <div id="accordion"></div>
@@ -38,10 +41,265 @@
   <select class="form-control" id="select_area"></select>
    <div class="accordion" id="accordion3">
      <div class="accordion-group-top">
+     
       <div class="accordion-heading">
-        <a class="accordion-toggle-top" data-toggle="collapse" data-parent="#accordion3" href="#collapse3_3">リンク</a>
+        <a class="accordion-toggle-top" data-toggle="collapse" data-parent="#accordion3" href="#collapse3_3">粗大ごみ</a>
       </div>
       <div id="collapse3_3" class="accordion-body collapse">
+        <div class="accordion-inner">
+          <div id="help">
+          
+            <h4>あ</h4>
+              <li>アコーディオンカーテン</li>
+              <p>大きさに関係なく</p>
+              
+              <li>足踏みミシン</li>
+              <p>ポータブルミシンは金属</p>
+              
+            <h4>い</h4>
+              <li>一輪車(ねこ)</li>
+              <p>遊戯用は金属, リヤカーは事故搬入</p>
+            
+            <h4>お</h4>
+              <li>オルガン・エレクトーン</li>
+              <p>家庭用</p>
+            <h4>か</h4>
+              <li>学習机</li>
+              <p>スチール・木製</p>
+              
+              <li>ガスオーブン</li>
+              <p>電子オーブンレンジは金属</p>
+              
+              <li>カラーボックス</li>
+              <p></p>
+              
+            <h4>き</h4>
+              <li>脚立</li>
+              <p>1m以下のものは金属</p>
+              
+              <li>キャンピングテーブル</li>
+              <p>家庭用</p>
+              
+              <li>鏡台</li>
+              <p></p>
+              
+            <h4>く</h4>
+              <li>草刈り機</li>
+              <p>燃料を抜く, 小型ものは金属</p>
+              
+              <li>車椅子</li>
+              <p>折りたたみ式も含む</p>
+              
+            <h4>け</h4>
+              <li>健康用器具</li>
+              <p>マッサージ用ソファー等, 健康用自転車・ぶらさがり健康器・その他</p>
+            
+            <h4>こ</h4>
+              <li>こたつ</li>
+              <p>こたつ板も粗大ごみ</p>
+            
+            <h4>さ</h4>
+              <li>座椅子(会見式用)</li>
+              <p>小型金属製のものは金属ごみ</p>
+              
+              <li>サイドボード</li>
+              <p></p>
+              
+            <h4>し</h4>
+              <li>磁器マットレス</li>
+              <p>スプリングの入っていないもの, 折りたたむか丸めて縛る</p>
+              
+              <li>自転車</li>
+              <p>三輪車, 一輪車は金属</p>
+              
+              <li>じゅうたん・カーペット</li>
+              <p>50cm四方に裁断し, 指定袋に入るものはもえるごみ</p>
+              
+              <li>焼却炉</li>
+              <p>家庭用</p>
+              
+              <h4>す</h4>
+              <li>水槽</li>
+              <p>70cm～1m未満, 70cm未満は埋立</p>
+              
+              <li>スキー板</li>
+              <p>ストックは金属</p>
+              
+              <li>スノーボード</li>
+              <p></p>
+              
+              <h4>そ</h4>
+              <li>ソファー</li>
+              <p></p>
+              
+              <h4>た</h4>
+              <li>ダイニングテーブル</li>
+              <p></p>
+              
+              <li>たんす</li>
+              <p></p>
+              
+              <h4>ち</h4>
+              <li>茶箱</li>
+              <p>木製で内側が金属のもの</p>
+              
+              <li>調理台</li>
+              <p>ステンレス・木製</p>
+              
+              <h4>な</h4>
+              <li>長椅子</li>
+              <p>木製・スチール製</p>
+              
+              <li>流し台</li>
+              <p>コンクリート・タイル製</p>
+              
+              <h4>は</h4>
+              <li>パイプベッド</li>
+              <p>折畳式・組立式も含む, サマーベッドは金属</p>
+              
+              <h4>ふ</h4>
+              <li>布団</li>
+              <p>一枚の指定袋に入ればもえるごみ</p>
+              
+              <li>ブランコ</li>
+              <p>乳幼児用</p>
+              
+              
+              <h4>へ</h4>
+              
+              <li>ベッド</li>
+              <p>組立式・二段・ベビー用, 解体しておく</p>
+              
+              <h4>ほ</h4>
+              <li>ホットカーペット</li>
+              <p></p>
+              
+              <li>本棚</li>
+              <p>木製・スチール製のもの</p>
+              
+              <h4>ま</h4>
+              
+              <li>マットレス</li>
+              <p>家庭用</p>
+              
+              <h4>も</h4>
+              <li>物置</li>
+              <p>解体済みのもの・解体できないものは業者へ依頼してください。</p>
+              
+              <li>物干台</li>
+              <p>コンクリート台付のもの・パイプのみのものは金属</p>
+              
+              <h4>よ</h4>
+              <li>よしず</li>
+              <p></p>
+              
+              <h4>り</h4>
+              <li>旅行用バッグ</li>
+              <p>大型で金属の入ったもの・スーツケースも同様</p>
+           
+          
+        </div>
+      </div>
+    </div>
+   </div>
+   </div>
+    
+     <hr>
+     
+     
+     <div class="accordion" id="accordion3">
+    <div class="accordion-group-top">
+      <div class="accordion-heading">
+        <a class="accordion-toggle-top" data-toggle="collapse" data-parent="#accordion3" href="#collapse3_1">施設案内</a>
+      </div>
+      <div id="collapse3_1" class="accordion-body collapse">
+        <div class="accordion-inner">
+          <div id="help">
+          
+          <h2>伊東市環境美化センター</h2>
+          
+          <h4>もえるごみ・古紙の事故搬入先</h4>
+          
+          <p><strong><b>〔住　所〕</b></strong><br>
+    伊東市鎌田１２９７番地の９１
+</p>		  
+		  <p><b>〔電話番号〕</b><br>
+    <a href="tel:0557350530" style=" color: #000000;text-decoration: underline;" target=”_blank”>０５５７－３５－０５３０</a></p>
+
+		  
+		  <p><b>〔受付時間〕</b><br>
+    月曜日～金曜日（祝日の火・木を除く）<br>
+    8：30～16：00（12：00～13：00を除く）</p>
+</p>
+
+		<h3>もえるごみの自己搬入について</h3>
+<p>※重量製による処理手数料徴収のため、<font color="#ff0000"><strong>伊東市指定ごみ袋は使用しないで</strong></font>ください。<br>
+※家計系廃棄物は<font color="#ff0000"><strong>10kgにつき30円</strong></font>、事業系廃棄物は<font color="#ff0000"><strong>10kgにつき60円</strong></font>の処理手数料がかかります。<br>
+※<font color="#ff0000"><strong>引越し等</strong></font>で多量にある<font color="#ff0000"><strong>可燃ごみ</strong></font>の搬入がある場合、事前に連絡をお願いします。<br>
+※庭木の<font color="#ff0000"><strong>剪定枝</strong></font>や<font color="#ff0000"><strong>木くず等</strong></font><br>
+　・<font color="#ff0000"><strong>太さが10cmを超えるものは長さに関係なく搬入できません。</strong></font><br>
+　・長さ50cm以内、太さ10cm未満のものはごみピットに直接搬入できます。<br>
+　・長さ2.5m以内、太さ10cm未満のものも搬入できますが、破砕処理が必要です。<br>
+　　（破砕処理が空くまでの待ち時間が必要となります。<br>
+※<font color="#ff0000"><strong>可燃粗大等は、金属などの不燃部分は取り除いてください。</strong></font><br>
+※搬入車両は2t車以下でお願いします。<br>
+※搬入物の内容を確認させていただくことがあります。<br>
+<br>
+<h4>特別に自己搬入できる廃棄物</h4>
+※産業廃棄物のうち、木くず、紙くず、繊維くず（10kgにつき60円の処理手数料がかかります。）<br>
+・詳細については、電話で確認してください。<br>
+<br></p>
+		  
+		  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d817.5382626286498!2d139.05934678949814!3d34.95277246042967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6019c218f6ee32a5%3A0xf9bf303d79974e43!2z5LyK5p2x5biC5b255omAIOeSsOWig-e-juWMluOCu-ODs-OCv-ODvA!5e0!3m2!1sja!2sjp!4v1500960435273" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      
+          <br>
+          <br>
+
+          
+          <h2>御石ヶ沢清掃工場・御石ヶ沢最終処分場</h2>
+          
+          <h4>もえないごみ・埋立ごみの自己搬入先</h4>
+          
+           <p><b>〔住　所〕</b><br>
+    伊東市宇佐美3596番地の4
+</p>		  
+		  <p><b>〔電話番号〕</b><br>
+    <a href="tel:0557472675" style=" color: #000000;text-decoration: underline;" target=”_blank”>０５５７－４７－２６７５</a></p>
+
+		  <p><b>〔受付時間〕</b><br>
+    月曜日～金曜日（祝日は除く）<br>
+    8：30～12：00　13:00～16:00</p>
+</p>
+          
+          <h3>もえないごみの自己搬入について</h3>
+※<font color="red"><strong>引越し等</strong></font>で多量にある<font color="red"><strong>不燃ごみ</strong></font>の搬入がある場合、事前に連絡をお願いします。<br>
+※<font color="red"><strong>カン、びん、金属、粗大、埋立ごみなどに分別</strong></font>して搬入をお願いします。<br>
+　（中身の入ったカン、びんなどは搬入できません。）<br>
+※びんはキャップ類をはずして汚れを取り、透明、茶、その他の色に分別してください。<br>
+※乾電池は<font color="red"><strong>他の金属、埋立ごみと分別</strong></font>して搬入してください。<br>
+※搬入時の入れ物（ダンボール・プラスティック容器・包装紙など）の可燃物については、引き取りできません。<br>
+※座椅子、椅子類なども可燃部分は取り除いてください。<br>
+　（分別した場合でも、1回当たり10台（脚）程度までとしてください。）<br>
+<br>※搬入車両は2t以下でお願いします。
+<br>※搬入物の内容を確認させいただくことがあります。<br>
+※蛍光灯は割らないように搬入してください。<br>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1633.601826338028!2d139.09649737219837!3d35.026634803433744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6019c0ebecbb8061%3A0x7013c74bdee3e257!2z5LyK5p2x5biC5b255omAIOW-oeefs-OCseayoua4heaOg-W3peWgtA!5e0!3m2!1sja!2sjp!4v1500962863699" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+          
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr> 
+     
+     
+     <div class="accordion" id="accordion3">
+    <div class="accordion-group-top">
+      <div class="accordion-heading">
+        <a class="accordion-toggle-top" data-toggle="collapse" data-parent="#accordion3" href="#collapse3_4">リンク</a>
+      </div>
+      <div id="collapse3_4" class="accordion-body collapse">
         <div class="accordion-inner">
           <div id="help">
            <h4><a href="http://www.edu.pref.shizuoka.jp/shimada-ch/home.nsf/IndexFormView?OpenView" style=" color: #000000;text-decoration: underline;" target=”_blank”>島田商業</a></h4>
@@ -49,9 +307,9 @@
            <ul>
               <a href="http://www.edu.pref.shizuoka.jp/shimada-ch/home.nsf/SearchMainView/%E7%89%B9%E8%89%B2%E3%81%82%E3%82%8B%E6%8E%88%E6%A5%AD%E5%AE%9F%E8%B7%B5%C2%A75374.jp?OpenDocument&Category=%E7%89%B9%E8%89%B2%E3%81%82%E3%82%8B%E6%8E%88%E6%A5%AD%E5%AE%9F%E8%B7%B5&SubCategory=5374.jp" style=" color: #000000;text-decoration: underline;" target=”_blank”>特色ある授業実践</a><br />
             </ul>
-          <h4><a href="https://www.city.mishima.shizuoka.jp/" style=" color: #000000;text-decoration: underline;" target=”_blank”>三島市</a></h4>
+          <h4><a href="http://www.city.ito.shizuoka.jp/" style=" color: #000000;text-decoration: underline;" target=”_blank”>伊東市</a></h4>
             <ul>
-              <a href="https://www.city.mishima.shizuoka.jp/ipn010443.html" style=" color: #000000;text-decoration: underline;" target=”_blank”>Web版　家庭のごみの分け方・出し方</a><br />
+              <a href="http://www.city.ito.shizuoka.jp/kankyou/html/calendar/hpg000005260.html" style=" color: #000000;text-decoration: underline;" target=”_blank”>Web版　家庭のごみの分け方・出し方</a><br />
             </ul>
           </div>
         </div>
@@ -70,10 +328,10 @@
 ゴミの問題は、どの地域でも深刻になりつつあります。
 Code for Kanazawaでは、先ずは正しいゴミの捨て方に注目しました。
 目的と使い方は、とてもシンプルです。</br>
-※本アプリはCode for Kanazawaが開発した『5374.jp』を、静岡県三島市版に対応したものです。
+※本アプリはCode for Kanazawaが開発した『5374.jp』を、静岡県伊東市版に対応したものです。
             <h2>目的</h2>
 「いつ、どのゴミが収集されているのか？」
-例えばお引っ越しをされた場合や、新しく三島市に住むことになった時、このアプリを使えば、すぐに分かるようにデザインされています。
+例えばお引っ越しをされた場合や、新しく伊東市に住むことになった時、このアプリを使えば、すぐに分かるようにデザインされています。
             <h2>使い方</h2>
             <h3>色でゴミのジャンルを表示</h3>
             <p>一番近いゴミの日とジャンルを上から順に表示しています。</p>
@@ -83,7 +341,7 @@ Code for Kanazawaでは、先ずは正しいゴミの捨て方に注目しまし
             <p>お住まいの地域を選択することで、ゴミ収集日が自動的に更新されます。</p>
             <div id="caption">
               <h4>提供されるゴミ情報について</h4>
-              <p>三島市が公開している<a href="https://www.city.mishima.shizuoka.jp/ipn010443.html" style="color:#000000;" target="_blank">分別収集カレンダー</a>から独自に解析し、アプリに実装しました。</p>
+              <p>伊東市が公開している<a href="https://www.city.mishima.shizuoka.jp/ipn010443.html" style="color:#000000;" target="_blank">分別収集カレンダー</a>から独自に解析し、アプリに実装しました。</p>
               <h4>ライセンスについて</h4>
               <p>本アプリの著作権はCode for Kanazawaに帰属します。</p>
             </div>
@@ -106,7 +364,7 @@ CfKは市民のための組織です。行政や民間企業の影響を受け�
   </div>
   <hr>
   <div id="help">
-  平成27年度　静岡県三島市版
+  平成29年度　静岡県伊東市版
   </div>
   
   <!-- JavaScript plugins (requires jQuery) -->
